@@ -1,0 +1,31 @@
+.button {
+    display: grid;
+    grid-template-columns: 15% 75%;
+    grid-template-rows: auto;
+    place-items: center;
+    column-gap: 10px;
+    row-gap: 15px;
+    background-color: #25D366;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px 15px;
+    color: white;
+    box-shadow: 1px 1px 3px silver;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: white;
+    color: #25D366;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: #25D366;
+}
