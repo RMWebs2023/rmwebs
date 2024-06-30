@@ -9,9 +9,11 @@ function Home() {
       <Header />
 
       <div className="home">
-        <h2>RMWebs - Desarrollamos <strong>TU WEB, TU APP o TU E-COMMERCE</strong> juntos</h2>
-        <h2> Transformando ideas en soluciones digitales </h2>
-        <Button />
+        <div className="textos">
+          <h1 className="titulo-home">Desarrollamos juntos <br/> <strong>TU WEB, TU APP, TU E-COMMERCE, TU IDEA</strong></h1>
+          <h2 className="slogan"> Transformando ideas en soluciones digitales </h2>
+          <Button />
+        </div>
       </div>
 
     </div>

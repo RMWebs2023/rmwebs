@@ -1,11 +1,28 @@
 .home {
     display: grid;
+    align-content: end;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../img/background_0.png");
+    background-size: cover;
+}
+
+.textos {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    place-items: center !important;
-    height: 90vh;
-    /*background: rgb(0,189,108);
-    background: linear-gradient(90deg, rgba(0,189,108,1) 22%, rgba(0,155,150,1) 50%, rgba(0,127,182,1) 74%);*/
-    background-image: url("../../../img/background.png");
+    place-items: center;
     color: white;
+}
+
+.titulo-home {
+    font-size: 50px;
+    text-align: center;
+}
+
+strong {
+    color: #01fed4;
+}
+
+.slogan {
+    font-size: 25px;
 }
